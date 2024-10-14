@@ -1,0 +1,33 @@
+/* Navbar styling */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent navbar */
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+/* Main content starts below navbar */
+.main-content {
+    background: url('Dance content/02-03-24_SorchaAugustine_140758.jpg') no-repeat center center fixed;
+    background-size: contain;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Text color to stand out against the background */
+    text-align: center;
+}
+
+/* Style the h1 */
+h1 {
+    font-size: 4rem;
+    animation: fadeIn 5s ease-in-out;
+}
+
+/* Keyframe animation for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
